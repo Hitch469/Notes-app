@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>my notes 🌸</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>🌸 my notes</h1>
+    <p>a soft little space for your thoughts</p>
+  </header>
+
+  <div class="controls">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="search your notes..." />
+    </div>
+    <button class="add-btn" id="addBtn">+ new note</button>
+  </div>
+
+  <div class="notes-grid" id="notesGrid"></div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <h2 id="modalTitle">new note</h2>
+    <input type="text" id="titleInput" placeholder="title" maxlength="60" />
+    <textarea id="bodyInput" placeholder="write something..."></textarea>
+    <div class="color-picker">
+      <div class="color-swatch pink selected" data-color="pink"></div>
+      <div class="color-swatch lavender" data-color="lavender"></div>
+      <div class="color-swatch mint" data-color="mint"></div>
+      <div class="color-swatch peach" data-color="peach"></div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" id="cancelBtn">cancel</button>
+      <button class="btn-save" id="saveBtn">save</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -24,7 +24,7 @@ Plain HTML, CSS, and JavaScript — no frameworks or build tools needed. Just op
 ## Running it
 
 ```bash
-git clone https://github.com/<Hitch469>/notes-pad.git
+git clone https://github.com/<Hitch469>/Notes-app.git
 cd notes-pad
 ```
 

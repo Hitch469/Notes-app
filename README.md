@@ -24,8 +24,8 @@ Plain HTML, CSS, and JavaScript — no frameworks or build tools needed. Just op
 ## Running it
 
 ```bash
-git clone https://github.com/<Hitch469>/Notes-app.git
-cd notes-pad
+git clone [https://github.com/<Hitch469>/Notes-app.git](https://github.com/Hitch469/Notes-app)
+cd notes-app
 ```
 
 Then just open `index.html` in your browser — no install, no server needed.

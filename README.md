@@ -26,6 +26,7 @@ Plain HTML, CSS, and JavaScript — no frameworks or build tools needed. Just op
 ```bash
 https://github.com/Hitch469/Notes-app
 
+```
 cd notes-app
 ```
 

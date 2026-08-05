@@ -28,6 +28,7 @@ https://github.com/Hitch469/Notes-app
 
 ```
 cd notes-app
+
 ```
 
 Then just open `index.html` in your browser — no install, no server needed.
